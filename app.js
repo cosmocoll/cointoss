@@ -27,4 +27,4 @@ function flip () {
     else {
         console.log('lose')
     }
-}
+};

@@ -4,36 +4,37 @@
         <link href="./style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-
-        <section>
-            <p>Choose heads or tails then press the flip button and see what the outcome is.
-            </p>
-        </section>
+        <div class="container">
 
             <section>
-                <form>
-                   
-                        <label for="heads">Heads
-                            <input type="radio" name="coin" value="heads" id='winnabego' checked="checked">
-                            <img src="./assets/heads.jpg">
-                        </label>
-                       
-                            <label for="tails">Tails
-                                <input type="radio" name="coin" value="tails">
-                                <img src="./assets/tails.jpg">
-                            </label>
-
-                                <input type="button" value="flip">
-                    </form>
+                <p>Tap heads or tails then press the flip button!
+                </p>
             </section>
 
                 <section>
-                    <p>% of guesses correct
-                    </p>
-                        <p>highest streak
-                        </p>
+                    <form>
+                    
+                            <label for="heads">Heads
+                                <input type="radio" name="coin" value="heads" checked="checked">
+                                <img src="./assets/crophead.jpeg">
+                            </label>
+                        
+                                <label for="tails">Tails
+                                    <input type="radio" name="coin" value="tails">
+                                    <img src="./assets/croptail.jpeg">
+                                </label>
+
+                                    <input type="button" value="flip">
+                        </form>
                 </section>
 
+                    <section>
+                        <p>Current streak:
+                        </p>
+                            <p>Highest streak:
+                            </p>
+                    </section>
+        </div>
                 <script src="./app.js" type="module">
                 </script>
     </body>
